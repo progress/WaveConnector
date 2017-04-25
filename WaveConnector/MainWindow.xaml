@@ -1,0 +1,122 @@
+﻿<Window x:Class="WaveConnector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WaveConnector"
+        mc:Ignorable="d"
+        Title="Wave Connector" Height="375" Width="525"
+        Icon="Resources\Progress_symbol_primary_RGB.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Image Grid.Row ="1" Grid.Column="0" Source="Resources/Salesforce_Logo_RGB_8_13_14.png" Width="120" />
+        <!--<TextBox Grid.Row="3" Grid.Column="0" Width="100" Text="Username"/>-->
+
+            <Grid Grid.Row="3">
+                <Grid.RowDefinitions >
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Username" FontWeight="Medium" Grid.Column="0" HorizontalAlignment="Right" Margin="80 0 12 0" />
+            <TextBox  x:Name="txtUserName" Height="25"  Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+                
+            </Grid>
+
+        
+       <!-- <Grid Grid.Row="3" Width="200">
+            <TextBox  x:Name="txtUserName" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBlock IsHitTestVisible="False" Text="Username" HorizontalAlignment="Center"  Foreground="DarkGray" Margin="0 3 0 0">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=txtUserName}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>-->
+
+        <Grid Grid.Row="5">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Password" FontWeight="Medium" Grid.Column="0" HorizontalAlignment="Right" Margin="80 0 16 0" />
+            <PasswordBox  x:Name="txtpassword" Height="25"  Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+
+        </Grid>
+
+
+        <!--<Grid Grid.Row="5" Width="200">
+            <TextBox  x:Name="txtpassword" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBlock IsHitTestVisible="False" Text="Password" HorizontalAlignment="Center"  Foreground="DarkGray" Margin="0 3 0 0">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=txtpassword}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid> -->
+
+        <Grid Grid.Row="7">
+            <Grid.RowDefinitions >
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Security Token" FontWeight="Medium" Grid.Column="0" HorizontalAlignment="Right" Margin="52 0 16 0" />
+            <TextBox  x:Name="txtSecToken" Height="25"  Width="200" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+
+        </Grid>
+
+        <!--<Grid Grid.Row="7" Width="200">
+            <TextBox  x:Name="txtSecurityToken" Height="25" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <TextBlock IsHitTestVisible="False" Text="Security Token" HorizontalAlignment="Center"  Foreground="DarkGray" Margin="0 3 0 0">
+                <TextBlock.Style>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Visibility" Value="Collapsed"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding Text, ElementName=txtSecurityToken}" Value="">
+                                <Setter Property="Visibility" Value="Visible"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Grid>-->
+
+        <Button Grid.Row="8" Width="100" Content="Login" FontWeight="Bold" Height="30" Click="Button_Click" Margin="0 10 0 0"></Button>
+        
+    </Grid>
+</Window>
