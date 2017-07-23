@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\Release\
+C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\x64\Release\
 WaveConnector
 none
 false
@@ -12,7 +12,7 @@ TRACE
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\App.xaml
 5-1515565077
 
-17-68285341
+132086322999
 86-1129215851
 MainWindow.xaml;Datasource.xaml;ODataConf.xaml;ODataEntitySelect.xaml;OdbcConf.xaml;
 

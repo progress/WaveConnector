@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaveConnector", "WaveConnector\WaveConnector.csproj", "{24E9539E-BA5B-4D2F-960C-9C485D899CAD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WaveConnector Setup", "WaveConnector Setup\WaveConnector Setup.vdproj", "{1500173E-9211-4421-91FB-B919C6D441AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{24E9539E-BA5B-4D2F-960C-9C485D899CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{24E9539E-BA5B-4D2F-960C-9C485D899CAD}.Release|x64.ActiveCfg = Release|Any CPU
 		{24E9539E-BA5B-4D2F-960C-9C485D899CAD}.Release|x64.Build.0 = Release|Any CPU
+		{1500173E-9211-4421-91FB-B919C6D441AC}.Debug|Any CPU.ActiveCfg = Debug
+		{1500173E-9211-4421-91FB-B919C6D441AC}.Debug|x64.ActiveCfg = Debug
+		{1500173E-9211-4421-91FB-B919C6D441AC}.Release|Any CPU.ActiveCfg = Release
+		{1500173E-9211-4421-91FB-B919C6D441AC}.Release|x64.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
