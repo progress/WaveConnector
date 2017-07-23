@@ -185,7 +185,6 @@ C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\bin\Release\ko\System.S
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\bin\Release\ru\System.Spatial.resources.dll
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\bin\Release\zh-Hans\System.Spatial.resources.dll
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\bin\Release\zh-Hant\System.Spatial.resources.dll
-C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\Release\WaveConnector.csprojResolveAssemblyReference.cache
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\Release\MainWindow.g.cs
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\Release\Datasource.g.cs
 C:\Users\sbobba\Source\Repos\WaveConnector\WaveConnector\obj\Release\ODataConf.g.cs
